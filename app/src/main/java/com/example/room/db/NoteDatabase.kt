@@ -1,4 +1,7 @@
 package com.example.room.db
 
-class NoteDatabase {
+import androidx.room.Database
+
+@Database()
+abstract class NoteDatabase {
 }
