@@ -35,7 +35,7 @@ class AddFrag : Fragment() {
             }
 
             val  note = Note(title,noti)
-            NoteDatabase(activity!!).getNoteDao().addNote()
+            NoteDatabase(activity!!).getNoteDao().addNote(note)
         }
 
     }
