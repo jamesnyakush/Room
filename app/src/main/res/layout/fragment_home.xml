@@ -5,6 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".ui.HomeFrag">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addd"
         android:layout_width="wrap_content"
